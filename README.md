@@ -48,4 +48,16 @@ REST es:
 - Over y underfetching
 - Conexión directa con base de datos
 
-React Apollo
+React Apollo es un cliente que nos va a permitir conectarnos a un servidor GraphQL.
+
+Vamos a instalar npm i apollo-boost, una utilidad que nos permite inicializar nuestra conexión con un servidor de Apollo muy rápidamente y sin configuración, necesitaremos npm i react-apollo el cual es la integración de Apollo con React y finalmente npm i graphql.
+
+
+
+RenderProps (https://es.reactjs.org/docs/render-props.html)
+
+El término “render prop” se refiere a una técnica para compartir código entre componentes en React utilizando una propiedad cuyo valor es una función.
+
+Un componente con una render prop toma una función que devuelve un elemento de React y lo llama en lugar de implementar su propia lógica de representació
+
+HOC
